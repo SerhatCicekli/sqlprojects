@@ -1,0 +1,13 @@
+https://academy.patika.dev/courses/sql/Odev9 
+
+1. SELECT city, country FROM city
+INNER JOIN country
+ON city.city_id = country.country_id;
+
+2. SELECT payment_id, first_name, last_name FROM customer
+INNER JOIN payment
+ON payment.payment_id = customer.id;
+
+3. SELECT rental_id, first_name, last_name FROM customer
+INNER JOIN payment
+ON rental.rental_id = customer.id;
